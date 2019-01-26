@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/050.png</file>
+        <file>image/051.png</file>
+        <file>image/58.png</file>
+        <file>image/59.png</file>
+        <file>image/downarrow.png</file>
+        <file>image/abc.qss</file>
+        <file>image/aip.png</file>
+        <file>image/M1S0.png</file>
+        <file>image/M1S1.png</file>
+        <file>image/M1S2.png</file>
+        <file>image/M1S1L1.png</file>
+        <file>image/M1S1L2.png</file>
+        <file>image/M1S1L3.png</file>
+        <file>image/M1S3.png</file>
+        <file>image/M1S4.png</file>
+        <file>image/None.png</file>
+    </qresource>
+</RCC>

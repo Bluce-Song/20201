@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/mnt/nfs/temp/screen -nomouse -qws&
+

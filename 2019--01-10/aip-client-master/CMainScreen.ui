@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CMainScreen</class>
+ <widget class="QWidget" name="CMainScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>青岛艾普智能仪器有限公司--电机综合测试仪</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <widget class="CHomeScreen" name="wHome"/>
+     <widget class="COnlineList" name="wList"/>
+     <widget class="CSystemSet" name="wSyst"/>
+     <widget class="CDataAnalyze" name="wData"/>
+     <widget class="CTestControl" name="wTest"/>
+     <widget class="CConfigType" name="wConf"/>
+     <widget class="CConfigRes" name="wsRes"/>
+     <widget class="CConfigOpp" name="wsOpp"/>
+     <widget class="CConfigIns" name="wsIns"/>
+     <widget class="CConfigAcv" name="wsAcv"/>
+     <widget class="CConfigDcv" name="wsDcv"/>
+     <widget class="CConfigItt" name="wsItt"/>
+    </widget>
+   </item>
+   <item>
+    <widget class="MyScrollArea" name="btnScrollArea">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <widget class="QWidget" name="btnWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>97</width>
+        <height>582</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>97</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btnExit">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>返回测试</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnSave">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>保存退出</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnEasy">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>快速设置</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_2" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnConf">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>参数设置</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnRes">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>电阻设置</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnOpp">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>反嵌设置</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnIns">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>绝缘设置</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnAcv">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>交流耐压</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnDcv">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>直流耐压</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnItt">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>匝间设置</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyScrollArea</class>
+   <extends>QScrollArea</extends>
+   <header location="global">MyScrollArea.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CHomeScreen</class>
+   <extends>QWidget</extends>
+   <header>CHomeScreen.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>COnlineList</class>
+   <extends>QWidget</extends>
+   <header>COnlineList.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CSystemSet</class>
+   <extends>QWidget</extends>
+   <header>CSystemSet.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CDataAnalyze</class>
+   <extends>QWidget</extends>
+   <header>CDataAnalyze.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CTestControl</class>
+   <extends>QWidget</extends>
+   <header>CTestControl.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CConfigType</class>
+   <extends>QWidget</extends>
+   <header>CConfigType.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CConfigRes</class>
+   <extends>QWidget</extends>
+   <header>CConfigRes.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CConfigOpp</class>
+   <extends>QWidget</extends>
+   <header>CConfigOpp.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CConfigIns</class>
+   <extends>QWidget</extends>
+   <header>CConfigIns.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CConfigAcv</class>
+   <extends>QWidget</extends>
+   <header>CConfigAcv.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CConfigDcv</class>
+   <extends>QWidget</extends>
+   <header>CConfigDcv.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CConfigItt</class>
+   <extends>QWidget</extends>
+   <header>CConfigItt.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,177 @@
+QWidget {
+    background-color:#191919;
+    color:white;
+    font:15pt;
+    border:none;
+}
+QWidget:focus {
+    outline:none;
+}
+CHomeScreen QLabel#titleCn {
+font: 45pt;
+}
+CHomeScreen QLabel#titleEn {
+font: 25pt;
+}
+QWidget#widgetColor,QWidget#widgetResult {
+    border-color: #447684;
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 9px;
+    padding: 2px;
+}
+QWidget#widgetColor QLabel {
+    border-width: 1px;
+    border-radius: 9px;
+    padding: 1px;
+}
+QCheckBox::indicator {
+    min-width: 50px;
+    min-height: 50px;
+}
+QCheckBox::indicator::unchecked {
+    image:url(:/image/59.png);
+}
+QCheckBox::indicator::checked {
+    image:url(:/image/58.png);
+}
+QComboBox {
+    font: 18pt;
+    border: 1px solid #32435E;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+    background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #080B10,stop:1 #212C3F);
+}
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left-width: 1px;
+    border-left-color: 32435E;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+QComboBox::down-arrow {
+    image: url(:image/downarrow.png);
+}
+QComboBox QAbstractItemView {
+    border: 2px solid #32435E;
+    selection-background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #506B79,stop: 1.0 #0D95A6);
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #1B2534, stop: 0.4 #010101,stop: 0.5 #000101, stop: 1.0 #1F2B3C);
+}
+QDialog {
+    background-color: #999;
+    border-color: #447684;
+    border-style: inset;
+    border-width: 1px;
+    border-radius: 1px;
+    padding: 1px;
+}
+QDialog QPushButton{
+    min-width: 70px;
+    min-height: 44px;
+}
+QDialog QToolButton{
+    min-width: 70px;
+    min-height: 44px;
+}
+QDialog QLabel{
+    background-color: #999;
+}
+QDoubleSpinBox {
+    min-height: 35px;
+    border: 1px solid #32435E;
+    border-radius: 3px;
+    padding-right: 5px; /* make room for the arrows */
+    background:qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #080B10, stop:1 #212C3F);
+}
+QDoubleSpinBox::hover{
+    border-color:#5D8B9E;
+}
+QLineEdit,QTextEdit {
+    border: 1px solid #447684;
+    border-radius: 3px;
+    background: qlineargradient(x1:0,y1:0,x2:0,y2:1,stop: 0 #080B10,stop: 1.0 #212C3F);
+    selection-background-color: #0A246A;
+}
+QPushButton {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #5B5F5F, stop: 0.5 #0C2436,stop: 1 #27405A);
+    border-style: outset;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #11223F;
+    padding: 1px;
+}
+QPushButton::hover{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #758385, stop: 0.5 #122C39,stop: 1 #0E7788);
+    border-color: #11505C;
+}
+QPushButton::pressed{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #969B9C, stop: 0.5 #16354B,stop: 1 #244F76);
+    border-color: #11505C;
+}
+QRadioButton{
+    spacing: 5px;
+}
+QRadioButton::indicator {
+    min-width: 30px;
+    min-height: 30px;
+}
+QRadioButton::indicator::unchecked,QRadioButton::indicator:unchecked:hover,QRadioButton::indicator:unchecked:pressed{
+    image:url(:/image/59.png);
+}
+QRadioButton::indicator::checked,QRadioButton::indicator:checked:hover,QRadioButton::indicator:checked:pressed{
+    image:url(:/image/58.png);
+}
+QScrollBar:vertical {
+    border: 1px solid #32435E;
+    border-width: 0px 0px 0px 1px;
+    background: #21252F;
+    width: 12px;
+    margin: 12px 0 12px 0;
+}
+QScrollBar::handle:vertical {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,stop:0 #60788C, stop:1 #1084BD);
+    min-height: 20px;
+}
+QScrollBar::add-line:vertical {
+    border: 1px solid #32435E;
+    border-width:0px 0px 0px 1px;
+    background:#21252F;
+    height: 12px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    border: 1px solid #32435E;
+    border-width:0px 0px 0px 1px;
+    background: #21252F;
+    height: 12px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QTableWidget{
+    gridline-color:#447684;
+    border-style: groove;
+    border-width: 1px;
+    border-color: #447684;
+}
+QHeaderView::section {
+    background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0 #353B43, stop:1 #151A20);
+    color: white;
+    padding-left: 4px;
+    border: 1px solid #447684;
+} 
+MyWaveLabel{
+    background-color:black;
+    font:12px;
+    border-style:outset;
+    border-width:1px;
+    border-radius:10px;
+    border-color:#447684;
+}
